@@ -1,0 +1,13 @@
+interface:
+  display_name: 自适应协作 v0.2
+  short_description: 内部做深、外部压缩：分步协作、风险前置检查与 Trello 跨对话续接
+  default_prompt: 请使用 $adaptive-collaboration 推进当前任务，按已确认方向自主工作，并保持可见输出简洁。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
